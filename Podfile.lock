@@ -1,26 +1,28 @@
 PODS:
   - Alamofire (5.0.2)
-  - HandsAppUI (0.2.1)
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
 
 DEPENDENCIES:
-  - HandsAppUI
   - Moya
+  - SDWebImage (~> 5.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - HandsAppUI
     - Moya
+    - SDWebImage
 
 SPEC CHECKSUMS:
   Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
-  HandsAppUI: f1e9b29de6566b2534d3b05bdb8c30d9f343445d
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
 
-PODFILE CHECKSUM: aaed327032dd367e1c511b4d960aa058d82b03f5
+PODFILE CHECKSUM: 6a63178d41c505ed1072dba75f739eb184bbf0b2
 
 COCOAPODS: 1.9.1

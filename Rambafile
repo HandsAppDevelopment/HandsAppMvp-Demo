@@ -2,28 +2,28 @@
 company: Никита Красавин
 
 ### Xcode project settings
-project_name: MyWed
-xcodeproj_path: MyWed.xcodeproj
+project_name: HandsAppMvp-Demo
+xcodeproj_path: HandsAppMvp-Demo.xcodeproj
 
 ### Code generation settings section
 # The main project target name
-project_target: MyWed
+project_target: HandsAppMvp-Demo
 
 # The file path for new screens
-project_file_path: MyWed/Screens
+project_file_path: HandsAppMvp-Demo/Screens
 
 # The Xcode group path to new screens
-project_group_path: MyWed/Screens
+project_group_path: HandsAppMvp-Demo/Screens
 
 ### Tests generation settings section
 # The tests target name
-test_target: MyWedTests
+test_target: HandsAppMvp-DemoTests
 
 # The file path for new tests
-test_file_path: MyWedTests/Screens
+test_file_path: HandsAppMvp-DemoTests/Screens
 
 # The Xcode group path to new tests
-test_group_path: MyWedTests/Screens
+test_group_path: HandsAppMvp-DemoTests/Screens
 
 ### Dependencies settings section
 podfile_path: Podfile
