@@ -11,6 +11,8 @@
 		49470B7B2418B1A5003E62CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49470B7A2418B1A5003E62CC /* AppDelegate.swift */; };
 		49470B842418B1A9003E62CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49470B832418B1A9003E62CC /* Assets.xcassets */; };
 		49470B872418B1A9003E62CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49470B852418B1A9003E62CC /* LaunchScreen.storyboard */; };
+		49470BA22418B638003E62CC /* NewsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49470BA12418B638003E62CC /* NewsApi.swift */; };
+		49470BA52418B65B003E62CC /* AppDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49470BA42418B65B003E62CC /* AppDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 		49470B882418B1A9003E62CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49470B8D2418B1A9003E62CC /* HandsAppMvp-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HandsAppMvp-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49470B932418B1A9003E62CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49470BA12418B638003E62CC /* NewsApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsApi.swift; sourceTree = "<group>"; };
+		49470BA42418B65B003E62CC /* AppDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDefaults.swift; sourceTree = "<group>"; };
 		92C91E6F03F30D81D68A1959 /* Pods-HandsAppMvp-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsAppMvp-Demo.release.xcconfig"; path = "Target Support Files/Pods-HandsAppMvp-Demo/Pods-HandsAppMvp-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				49470B832418B1A9003E62CC /* Assets.xcassets */,
+				49470BA42418B65B003E62CC /* AppDefaults.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 		49470BA02418B578003E62CC /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				49470BA12418B638003E62CC /* NewsApi.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -296,6 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49470B7B2418B1A5003E62CC /* AppDelegate.swift in Sources */,
+				49470BA22418B638003E62CC /* NewsApi.swift in Sources */,
+				49470BA52418B65B003E62CC /* AppDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  HandsAppMvp-Demo
-//
-//  Created by Никита Красавин on 11.03.2020.
-//  Copyright © 2020 Никита Красавин. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
