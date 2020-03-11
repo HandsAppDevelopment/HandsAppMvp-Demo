@@ -1,0 +1,38 @@
+### Headers settings
+company: Никита Красавин
+
+### Xcode project settings
+project_name: MyWed
+xcodeproj_path: MyWed.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: MyWed
+
+# The file path for new screens
+project_file_path: MyWed/Screens
+
+# The Xcode group path to new screens
+project_group_path: MyWed/Screens
+
+### Tests generation settings section
+# The tests target name
+test_target: MyWedTests
+
+# The file path for new tests
+test_file_path: MyWedTests/Screens
+
+# The Xcode group path to new tests
+test_group_path: MyWedTests/Screens
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Catalogs
+catalogs:
+- 'https://github.com/HandsAppTeam/generamba-templates'
+
+### Templates
+templates:
+- {name: handsapp_mvp_screen}
+- {name: handsapp_mvp_table_screen}

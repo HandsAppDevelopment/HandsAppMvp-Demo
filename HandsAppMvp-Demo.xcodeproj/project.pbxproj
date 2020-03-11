@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461EA1D6B8248C88F5FB82FA /* Pods_HandsAppMvp_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077FF27E0451A64D3467212D /* Pods_HandsAppMvp_Demo.framework */; };
+		49470B7B2418B1A5003E62CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49470B7A2418B1A5003E62CC /* AppDelegate.swift */; };
+		49470B842418B1A9003E62CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49470B832418B1A9003E62CC /* Assets.xcassets */; };
+		49470B872418B1A9003E62CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49470B852418B1A9003E62CC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49470B8E2418B1A9003E62CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49470B6F2418B1A5003E62CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49470B762418B1A5003E62CC;
+			remoteInfo = "HandsAppMvp-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077FF27E0451A64D3467212D /* Pods_HandsAppMvp_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandsAppMvp_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C8EAD87CFC4BFF6924B630 /* Pods-HandsAppMvp-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsAppMvp-Demo.debug.xcconfig"; path = "Target Support Files/Pods-HandsAppMvp-Demo/Pods-HandsAppMvp-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		49470B772418B1A5003E62CC /* HandsAppMvp-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HandsAppMvp-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49470B7A2418B1A5003E62CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49470B832418B1A9003E62CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49470B862418B1A9003E62CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49470B882418B1A9003E62CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49470B8D2418B1A9003E62CC /* HandsAppMvp-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HandsAppMvp-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49470B932418B1A9003E62CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C91E6F03F30D81D68A1959 /* Pods-HandsAppMvp-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsAppMvp-Demo.release.xcconfig"; path = "Target Support Files/Pods-HandsAppMvp-Demo/Pods-HandsAppMvp-Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49470B742418B1A5003E62CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461EA1D6B8248C88F5FB82FA /* Pods_HandsAppMvp_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49470B8A2418B1A9003E62CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49470B6E2418B1A5003E62CC = {
+			isa = PBXGroup;
+			children = (
+				49470B792418B1A5003E62CC /* HandsAppMvp-Demo */,
+				49470B902418B1A9003E62CC /* HandsAppMvp-DemoTests */,
+				49470B782418B1A5003E62CC /* Products */,
+				DF074871950FE87A15E16620 /* Pods */,
+				F69655B4875687784D198440 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49470B782418B1A5003E62CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49470B772418B1A5003E62CC /* HandsAppMvp-Demo.app */,
+				49470B8D2418B1A9003E62CC /* HandsAppMvp-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49470B792418B1A5003E62CC /* HandsAppMvp-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				49470B9C2418B379003E62CC /* Application */,
+				49470B9D2418B391003E62CC /* Resources */,
+				49470B9E2418B3A6003E62CC /* Screens */,
+				49470B9F2418B3BA003E62CC /* Services */,
+				49470B882418B1A9003E62CC /* Info.plist */,
+			);
+			path = "HandsAppMvp-Demo";
+			sourceTree = "<group>";
+		};
+		49470B902418B1A9003E62CC /* HandsAppMvp-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				49470B932418B1A9003E62CC /* Info.plist */,
+			);
+			path = "HandsAppMvp-DemoTests";
+			sourceTree = "<group>";
+		};
+		49470B9C2418B379003E62CC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				49470B7A2418B1A5003E62CC /* AppDelegate.swift */,
+				49470B852418B1A9003E62CC /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		49470B9D2418B391003E62CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49470B832418B1A9003E62CC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		49470B9E2418B3A6003E62CC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		49470B9F2418B3BA003E62CC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49470BA02418B578003E62CC /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		49470BA02418B578003E62CC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DF074871950FE87A15E16620 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32C8EAD87CFC4BFF6924B630 /* Pods-HandsAppMvp-Demo.debug.xcconfig */,
+				92C91E6F03F30D81D68A1959 /* Pods-HandsAppMvp-Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F69655B4875687784D198440 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				077FF27E0451A64D3467212D /* Pods_HandsAppMvp_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49470B762418B1A5003E62CC /* HandsAppMvp-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49470B962418B1A9003E62CC /* Build configuration list for PBXNativeTarget "HandsAppMvp-Demo" */;
+			buildPhases = (
+				6AD6ECACE46A15B67E6F4787 /* [CP] Check Pods Manifest.lock */,
+				49470B732418B1A5003E62CC /* Sources */,
+				49470B742418B1A5003E62CC /* Frameworks */,
+				49470B752418B1A5003E62CC /* Resources */,
+				EC154D350F245557B5FB61CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HandsAppMvp-Demo";
+			productName = "HandsAppMvp-Demo";
+			productReference = 49470B772418B1A5003E62CC /* HandsAppMvp-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49470B8C2418B1A9003E62CC /* HandsAppMvp-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49470B992418B1A9003E62CC /* Build configuration list for PBXNativeTarget "HandsAppMvp-DemoTests" */;
+			buildPhases = (
+				49470B892418B1A9003E62CC /* Sources */,
+				49470B8A2418B1A9003E62CC /* Frameworks */,
+				49470B8B2418B1A9003E62CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49470B8F2418B1A9003E62CC /* PBXTargetDependency */,
+			);
+			name = "HandsAppMvp-DemoTests";
+			productName = "HandsAppMvp-DemoTests";
+			productReference = 49470B8D2418B1A9003E62CC /* HandsAppMvp-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49470B6F2418B1A5003E62CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Никита Красавин";
+				TargetAttributes = {
+					49470B762418B1A5003E62CC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					49470B8C2418B1A9003E62CC = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 49470B762418B1A5003E62CC;
+					};
+				};
+			};
+			buildConfigurationList = 49470B722418B1A5003E62CC /* Build configuration list for PBXProject "HandsAppMvp-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49470B6E2418B1A5003E62CC;
+			productRefGroup = 49470B782418B1A5003E62CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49470B762418B1A5003E62CC /* HandsAppMvp-Demo */,
+				49470B8C2418B1A9003E62CC /* HandsAppMvp-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49470B752418B1A5003E62CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49470B872418B1A9003E62CC /* LaunchScreen.storyboard in Resources */,
+				49470B842418B1A9003E62CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49470B8B2418B1A9003E62CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AD6ECACE46A15B67E6F4787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandsAppMvp-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC154D350F245557B5FB61CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HandsAppMvp-Demo/Pods-HandsAppMvp-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HandsAppMvp-Demo/Pods-HandsAppMvp-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HandsAppMvp-Demo/Pods-HandsAppMvp-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49470B732418B1A5003E62CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49470B7B2418B1A5003E62CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49470B892418B1A9003E62CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49470B8F2418B1A9003E62CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49470B762418B1A5003E62CC /* HandsAppMvp-Demo */;
+			targetProxy = 49470B8E2418B1A9003E62CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49470B852418B1A9003E62CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49470B862418B1A9003E62CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49470B942418B1A9003E62CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49470B952418B1A9003E62CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49470B972418B1A9003E62CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C8EAD87CFC4BFF6924B630 /* Pods-HandsAppMvp-Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H684JQG5B2;
+				INFOPLIST_FILE = "HandsAppMvp-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.handsapp.HandsAppMvp-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49470B982418B1A9003E62CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C91E6F03F30D81D68A1959 /* Pods-HandsAppMvp-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H684JQG5B2;
+				INFOPLIST_FILE = "HandsAppMvp-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.handsapp.HandsAppMvp-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49470B9A2418B1A9003E62CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H684JQG5B2;
+				INFOPLIST_FILE = "HandsAppMvp-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.handsapp.HandsAppMvp-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandsAppMvp-Demo.app/HandsAppMvp-Demo";
+			};
+			name = Debug;
+		};
+		49470B9B2418B1A9003E62CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H684JQG5B2;
+				INFOPLIST_FILE = "HandsAppMvp-DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.handsapp.HandsAppMvp-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandsAppMvp-Demo.app/HandsAppMvp-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49470B722418B1A5003E62CC /* Build configuration list for PBXProject "HandsAppMvp-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49470B942418B1A9003E62CC /* Debug */,
+				49470B952418B1A9003E62CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49470B962418B1A9003E62CC /* Build configuration list for PBXNativeTarget "HandsAppMvp-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49470B972418B1A9003E62CC /* Debug */,
+				49470B982418B1A9003E62CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49470B992418B1A9003E62CC /* Build configuration list for PBXNativeTarget "HandsAppMvp-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49470B9A2418B1A9003E62CC /* Debug */,
+				49470B9B2418B1A9003E62CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49470B6F2418B1A5003E62CC /* Project object */;
+}
