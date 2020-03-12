@@ -13,7 +13,7 @@ class SearchPresenter {
     weak var output: SearchScreenOutput?
 
     private let newsApiProvider: MoyaProvider<NewsApi>
-    private var articlesItems: [PreparableViewModel] = []
+    private var articlesItems: [ArticleCellViewModel] = []
     private let articlesMapper = ArticleMapper()
 
     // MARK: - Lifecycle
@@ -55,8 +55,9 @@ extension SearchPresenter: SearchViewOutput {
 // MARK: - SearchTableAdapterOutput
 
 extension SearchPresenter: SearchTableAdapterOutput {
-    func itemSelected(atIndex: Int) {
-
+    func itemSelected(atIndex index: Int) {
+        let articleItem = articlesItems[index]
+        router.showArticleDetails(article: articleItem.article)
     }
 }
 

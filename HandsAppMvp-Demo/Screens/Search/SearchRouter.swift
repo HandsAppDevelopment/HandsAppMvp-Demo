@@ -1,6 +1,8 @@
 import UIKit
 
-protocol SearchRouterInput {}
+protocol SearchRouterInput {
+    func showArticleDetails(article: ArticleModel)
+}
 
 class SearchRouter: SearchRouterInput {
 
@@ -10,4 +12,8 @@ class SearchRouter: SearchRouterInput {
 
 	// MARK: - SearchRouterInput
 
+    func showArticleDetails(article: ArticleModel) {
+        let viewController = ArticleDetailsScreenAssembly().assemble(article: article)
+        view?.push(screen: viewController, animated: true)
+    }
 }

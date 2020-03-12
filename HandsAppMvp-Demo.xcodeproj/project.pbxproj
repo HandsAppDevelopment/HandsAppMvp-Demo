@@ -31,11 +31,20 @@
 		49470BCC2418BB3E003E62CC /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49470BC72418BB3E003E62CC /* ArticleModel.swift */; };
 		49470BCD2418BB3E003E62CC /* ArticleMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49470BC92418BB3E003E62CC /* ArticleMapper.swift */; };
 		49470BD02418BBAA003E62CC /* ArticelCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49470BCF2418BBAA003E62CC /* ArticelCellViewModel.swift */; };
+		4D96BC8C0D03EE9DA49A93BC /* ArticleDetailsScreenAssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AA04CF23EE1180A15BB2B8 /* ArticleDetailsScreenAssemblyTests.swift */; };
+		6754F0FC3D151202E68F7CD1 /* ArticleDetailsRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC57D4CF310D99A662D1379 /* ArticleDetailsRouterMock.swift */; };
+		6B2649E5C2B774A685667CB0 /* ArticleDetailsScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441F6E8240B9F137FA8BA74 /* ArticleDetailsScreenAssembly.swift */; };
 		8AFB1CF4DBB64E30AFE8313E /* SearchTableAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C0EA04431D2849635366DD /* SearchTableAdapter.swift */; };
 		8B3C5064D8CEA6C4176BDADB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B42D8513F9BECE1A3CF2C /* SearchViewController.swift */; };
 		98C47A3E0B7FD2B40336392B /* SearchScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C851F0AC950B845A64672D4 /* SearchScreenAssembly.swift */; };
 		AA0C50963323022C5C36143F /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611AC0A9E8DB9651105C9CD0 /* SearchPresenter.swift */; };
 		AB8350C2B9682D85C75DD242 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E337D9A9D3AE74453A95C73 /* SearchRouter.swift */; };
+		AE1A36A224325CDF7BD46027 /* ArticleDetailsScreenOutputMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1198C8A7C25D46D52EDD5C6 /* ArticleDetailsScreenOutputMock.swift */; };
+		B1DB8BFDEE448A52DE434517 /* ArticleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0CA635A506EF111511B54E /* ArticleDetailsViewController.swift */; };
+		C37303B22079CE9BF9E3BA94 /* ArticleDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7656F7E2918B3009ECFDC41A /* ArticleDetailsPresenter.swift */; };
+		CAEEEF3B2159B6D5FC72373C /* ArticleDetailsViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3613445E1F515DC2AEC660B6 /* ArticleDetailsViewControllerMock.swift */; };
+		CDE9222E47E922DCD43DDD48 /* ArticleDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B176736A4F6DEAC579327F5 /* ArticleDetailsRouter.swift */; };
+		F14421848F454F4C9DC900D1 /* ArticleDetailsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F993B74838E81E102E1A1A /* ArticleDetailsPresenterTests.swift */; };
 		F85466DBB10FCEB9463556F9 /* SearchViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39858CFA4B1AF788D33927D3 /* SearchViewControllerMock.swift */; };
 		FDFEDD1B141869D090152E9C /* SearchScreenOutputMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D1874A73525D8C8E486E22 /* SearchScreenOutputMock.swift */; };
 /* End PBXBuildFile section */
@@ -52,7 +61,9 @@
 
 /* Begin PBXFileReference section */
 		077FF27E0451A64D3467212D /* Pods_HandsAppMvp_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandsAppMvp_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B176736A4F6DEAC579327F5 /* ArticleDetailsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsRouter.swift; sourceTree = "<group>"; };
 		32C8EAD87CFC4BFF6924B630 /* Pods-HandsAppMvp-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsAppMvp-Demo.debug.xcconfig"; path = "Target Support Files/Pods-HandsAppMvp-Demo/Pods-HandsAppMvp-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		3613445E1F515DC2AEC660B6 /* ArticleDetailsViewControllerMock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewControllerMock.swift; sourceTree = "<group>"; };
 		39858CFA4B1AF788D33927D3 /* SearchViewControllerMock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchViewControllerMock.swift; sourceTree = "<group>"; };
 		3D2FD1D72E004B61AB686F12 /* SearchPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchPresenterTests.swift; sourceTree = "<group>"; };
 		49470B772418B1A5003E62CC /* HandsAppMvp-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HandsAppMvp-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,11 +94,18 @@
 		611AC0A9E8DB9651105C9CD0 /* SearchPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
 		6F4C57F6BC6FEC17643F3ED8 /* SearchRouterMock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchRouterMock.swift; sourceTree = "<group>"; };
 		75D1874A73525D8C8E486E22 /* SearchScreenOutputMock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchScreenOutputMock.swift; sourceTree = "<group>"; };
+		7656F7E2918B3009ECFDC41A /* ArticleDetailsPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsPresenter.swift; sourceTree = "<group>"; };
 		7A3B42D8513F9BECE1A3CF2C /* SearchViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		85AA04CF23EE1180A15BB2B8 /* ArticleDetailsScreenAssemblyTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsScreenAssemblyTests.swift; sourceTree = "<group>"; };
 		8E337D9A9D3AE74453A95C73 /* SearchRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
 		92C91E6F03F30D81D68A1959 /* Pods-HandsAppMvp-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsAppMvp-Demo.release.xcconfig"; path = "Target Support Files/Pods-HandsAppMvp-Demo/Pods-HandsAppMvp-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		A2F993B74838E81E102E1A1A /* ArticleDetailsPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsPresenterTests.swift; sourceTree = "<group>"; };
+		B1198C8A7C25D46D52EDD5C6 /* ArticleDetailsScreenOutputMock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsScreenOutputMock.swift; sourceTree = "<group>"; };
 		BF88E9CE10D1F7D08F729DDD /* SearchScreenAssemblyTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchScreenAssemblyTests.swift; sourceTree = "<group>"; };
 		D1C0EA04431D2849635366DD /* SearchTableAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchTableAdapter.swift; sourceTree = "<group>"; };
+		E441F6E8240B9F137FA8BA74 /* ArticleDetailsScreenAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsScreenAssembly.swift; sourceTree = "<group>"; };
+		EBC57D4CF310D99A662D1379 /* ArticleDetailsRouterMock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsRouterMock.swift; sourceTree = "<group>"; };
+		FF0CA635A506EF111511B54E /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				3C31AF009DD855203D575967 /* Search */,
+				6C6E05CF333983E803E95B7B /* ArticleDetails */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -317,12 +336,44 @@
 			path = ArticelCell;
 			sourceTree = "<group>";
 		};
+		6C6E05CF333983E803E95B7B /* ArticleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				FF0CA635A506EF111511B54E /* ArticleDetailsViewController.swift */,
+				7656F7E2918B3009ECFDC41A /* ArticleDetailsPresenter.swift */,
+				0B176736A4F6DEAC579327F5 /* ArticleDetailsRouter.swift */,
+				E441F6E8240B9F137FA8BA74 /* ArticleDetailsScreenAssembly.swift */,
+			);
+			path = ArticleDetails;
+			sourceTree = "<group>";
+		};
 		6F2AC0BDE0E293E53A885EF8 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				463F13638948A6F571DF1B68 /* Search */,
+				7A0EB038526A6875FCF1F4B0 /* ArticleDetails */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		7A0EB038526A6875FCF1F4B0 /* ArticleDetails */ = {
+			isa = PBXGroup;
+			children = (
+				85AA04CF23EE1180A15BB2B8 /* ArticleDetailsScreenAssemblyTests.swift */,
+				A2F993B74838E81E102E1A1A /* ArticleDetailsPresenterTests.swift */,
+				99B3DE16A6E7E87F34ED1304 /* Mock Objects */,
+			);
+			path = ArticleDetails;
+			sourceTree = "<group>";
+		};
+		99B3DE16A6E7E87F34ED1304 /* Mock Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3613445E1F515DC2AEC660B6 /* ArticleDetailsViewControllerMock.swift */,
+				EBC57D4CF310D99A662D1379 /* ArticleDetailsRouterMock.swift */,
+				B1198C8A7C25D46D52EDD5C6 /* ArticleDetailsScreenOutputMock.swift */,
+			);
+			path = "Mock Objects";
 			sourceTree = "<group>";
 		};
 		CF721A2920DFC275DD3CBDDB /* Mock Objects */ = {
@@ -519,6 +570,10 @@
 				AB8350C2B9682D85C75DD242 /* SearchRouter.swift in Sources */,
 				98C47A3E0B7FD2B40336392B /* SearchScreenAssembly.swift in Sources */,
 				49470BB92418B95E003E62CC /* PreparableTableCell.swift in Sources */,
+				B1DB8BFDEE448A52DE434517 /* ArticleDetailsViewController.swift in Sources */,
+				C37303B22079CE9BF9E3BA94 /* ArticleDetailsPresenter.swift in Sources */,
+				CDE9222E47E922DCD43DDD48 /* ArticleDetailsRouter.swift in Sources */,
+				6B2649E5C2B774A685667CB0 /* ArticleDetailsScreenAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +586,11 @@
 				F85466DBB10FCEB9463556F9 /* SearchViewControllerMock.swift in Sources */,
 				062FB0D2C87F78C841AB2E64 /* SearchRouterMock.swift in Sources */,
 				FDFEDD1B141869D090152E9C /* SearchScreenOutputMock.swift in Sources */,
+				4D96BC8C0D03EE9DA49A93BC /* ArticleDetailsScreenAssemblyTests.swift in Sources */,
+				F14421848F454F4C9DC900D1 /* ArticleDetailsPresenterTests.swift in Sources */,
+				CAEEEF3B2159B6D5FC72373C /* ArticleDetailsViewControllerMock.swift in Sources */,
+				6754F0FC3D151202E68F7CD1 /* ArticleDetailsRouterMock.swift in Sources */,
+				AE1A36A224325CDF7BD46027 /* ArticleDetailsScreenOutputMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,7 +666,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -660,7 +720,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -678,6 +738,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H684JQG5B2;
 				INFOPLIST_FILE = "HandsAppMvp-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -697,6 +758,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H684JQG5B2;
 				INFOPLIST_FILE = "HandsAppMvp-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

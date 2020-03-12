@@ -1,7 +1,7 @@
 import UIKit
 
 protocol SearchTableAdapterOutput: AnyObject {
-    func itemSelected(atIndex: Int)
+    func itemSelected(atIndex index: Int)
 }
 
 class SearchTableAdapter: NSObject {
