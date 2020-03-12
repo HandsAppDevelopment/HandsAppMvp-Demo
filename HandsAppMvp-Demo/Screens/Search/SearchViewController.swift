@@ -1,8 +1,12 @@
 import UIKit
 
-protocol SearchViewInput: AnyObject {}
+protocol SearchViewInput: UserMessagesView {
+    func reloadTable(withItems items: [PreparableViewModel])
+}
 
-protocol SearchViewOutput {}
+protocol SearchViewOutput {
+    func searchTextChanged(text: String?)
+}
 
 class SearchViewController: UIViewController, ScreenTransitionable {
 
@@ -34,7 +38,7 @@ class SearchViewController: UIViewController, ScreenTransitionable {
     // MARK: - Prepare View
 
     private func prepareView() {
-        title = Strings.feed
+        title = Strings.newsSearch
         navigationController?.interactivePopGestureRecognizer?.delegate = nil
         prepareSearchController()
         prepareTableView()
@@ -43,16 +47,20 @@ class SearchViewController: UIViewController, ScreenTransitionable {
     private func prepareSearchController() {
         searchController.searchBar.placeholder = Strings.articlesSearchPlaceholder
         searchController.searchBar.sizeToFit()
+        searchController.searchBar.searchTextField.addTarget(
+            self,
+            action: #selector(searchTextChanged(_:)),
+            for: .editingChanged
+        )
         searchController.obscuresBackgroundDuringPresentation = false
         navigationItem.searchController = searchController
     }
 
     private func prepareTableView() {
-        let cellNib = UINib(nibName: ArticleCell.className, bundle: Bundle.main)
-        tableView.register(cellNib, forCellReuseIdentifier: ArticleCell.className)
+        tableView.register(ArticleCell.self, forCellReuseIdentifier: ArticleCell.className)
         tableView.rowHeight = 200
-        tableView.dataSource = nil
-        tableView.delegate = nil
+        tableView.dataSource = tableAdapter
+        tableView.delegate = tableAdapter
 
         view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -67,8 +75,18 @@ class SearchViewController: UIViewController, ScreenTransitionable {
 
 
     // MARK: - Actions
+
+    @objc
+    private func searchTextChanged(_ textField: UITextField) {
+        output.searchTextChanged(text: textField.text)
+    }
 }
 
 // MARK: - SearchViewInput
 
-extension SearchViewController: SearchViewInput {}
+extension SearchViewController: SearchViewInput {
+    func reloadTable(withItems items: [PreparableViewModel]) {
+        tableAdapter.items = items
+        tableView.reloadData()
+    }
+}

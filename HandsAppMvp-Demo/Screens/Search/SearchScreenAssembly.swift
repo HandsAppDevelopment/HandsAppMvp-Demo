@@ -1,11 +1,11 @@
 import UIKit
+import Moya
 
 class SearchScreenAssembly {
-
     func assemble(output: SearchScreenOutput? = nil) -> SearchViewController {
-
         let router = SearchRouter()
-        let presenter = SearchPresenter(router: router)
+        let newsApiProvider = MoyaProvider<NewsApi>(plugins: [NetworkLoggerPlugin()])
+        let presenter = SearchPresenter(router: router, newsApiProvider: newsApiProvider)
         let tableAdapter = SearchTableAdapter()
         let view = SearchViewController(output: presenter,
                                         tableAdapter: tableAdapter)

@@ -30,14 +30,21 @@ class ArticleCell: PreparableTableCell {
     }
 
     override func prepare(withViewModel viewModel: PreparableViewModel?) {
-        self.viewModel = viewModel as? ArticleCellViewModel
         prepareView()
+        self.viewModel = viewModel as? ArticleCellViewModel
     }
 
     // MARK: - Prepare View
 
     private func prepareView() {
-
+        contentView.clipsToBounds = true
+        selectionStyle = .none
+        setPhotoImageView()
+        setPhotoCoverView()
+        setTitleLabel()
+        setAuthorLabel()
+        setDateLabel()
+        setDescriptionLabel()
     }
 
     private func setPhotoImageView() {
@@ -57,7 +64,7 @@ class ArticleCell: PreparableTableCell {
     private func setPhotoCoverView() {
         photoCoverView.backgroundColor = .black
         photoCoverView.alpha = 0.4
-        contentView.addSubview(photoImageView)
+        contentView.addSubview(photoCoverView)
         photoCoverView.translatesAutoresizingMaskIntoConstraints = false
         let constraints = [
             photoCoverView.topAnchor.constraint(equalTo: contentView.topAnchor),
@@ -77,7 +84,7 @@ class ArticleCell: PreparableTableCell {
         let constraints = [
             titleLabel.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 20),
             titleLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
-            titleLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: 16)
+            titleLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16)
         ]
         NSLayoutConstraint.activate(constraints)
     }
@@ -89,7 +96,7 @@ class ArticleCell: PreparableTableCell {
         contentView.addSubview(authorLabel)
         authorLabel.translatesAutoresizingMaskIntoConstraints = false
         let constraints = [
-            authorLabel.topAnchor.constraint(equalTo: titleLabel.topAnchor, constant: 4),
+            authorLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 4),
             authorLabel.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor),
             authorLabel.trailingAnchor.constraint(equalTo: titleLabel.trailingAnchor)
         ]
@@ -103,7 +110,7 @@ class ArticleCell: PreparableTableCell {
         contentView.addSubview(dateLabel)
         dateLabel.translatesAutoresizingMaskIntoConstraints = false
         let constraints = [
-            dateLabel.topAnchor.constraint(equalTo: authorLabel.topAnchor, constant: 4),
+            dateLabel.topAnchor.constraint(equalTo: authorLabel.bottomAnchor, constant: 4),
             dateLabel.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor),
             dateLabel.trailingAnchor.constraint(equalTo: titleLabel.trailingAnchor)
         ]
@@ -118,7 +125,7 @@ class ArticleCell: PreparableTableCell {
         descriptionLabel.translatesAutoresizingMaskIntoConstraints = false
         let constraints = [
             descriptionLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor,
-                                                     constant: 16),
+                                                     constant: -16),
             descriptionLabel.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor),
             descriptionLabel.trailingAnchor.constraint(equalTo: titleLabel.trailingAnchor),
             descriptionLabel.heightAnchor.constraint(lessThanOrEqualToConstant: 56)

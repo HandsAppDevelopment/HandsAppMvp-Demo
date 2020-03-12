@@ -1,6 +1,8 @@
 import UIKit
 
-protocol SearchTableAdapterOutput: AnyObject {}
+protocol SearchTableAdapterOutput: AnyObject {
+    func itemSelected(atIndex: Int)
+}
 
 class SearchTableAdapter: NSObject {
 
@@ -30,4 +32,8 @@ extension SearchTableAdapter: UITableViewDataSource {
 
 // MARK: - UITableViewDelegate
 
-extension SearchTableAdapter: UITableViewDelegate {}
+extension SearchTableAdapter: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        output?.itemSelected(atIndex: indexPath.row)
+    }
+}
