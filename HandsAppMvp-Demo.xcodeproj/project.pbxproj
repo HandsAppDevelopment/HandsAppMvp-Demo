@@ -11,6 +11,8 @@
 		3224A08188C5B882E7A99AC8 /* SearchScreenAssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF88E9CE10D1F7D08F729DDD /* SearchScreenAssemblyTests.swift */; };
 		461EA1D6B8248C88F5FB82FA /* Pods_HandsAppMvp_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077FF27E0451A64D3467212D /* Pods_HandsAppMvp_Demo.framework */; };
 		469890EDE066F190B287EF8C /* SearchPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FD1D72E004B61AB686F12 /* SearchPresenterTests.swift */; };
+		4910A6D22421274700405361 /* ArticleMapperTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910A6D02421274700405361 /* ArticleMapperTestData.swift */; };
+		4910A6D32421274700405361 /* ArticleMapperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910A6D12421274700405361 /* ArticleMapperTest.swift */; };
 		49470B7B2418B1A5003E62CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49470B7A2418B1A5003E62CC /* AppDelegate.swift */; };
 		49470B842418B1A9003E62CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49470B832418B1A9003E62CC /* Assets.xcassets */; };
 		49470B872418B1A9003E62CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49470B852418B1A9003E62CC /* LaunchScreen.storyboard */; };
@@ -34,6 +36,7 @@
 		4D96BC8C0D03EE9DA49A93BC /* ArticleDetailsScreenAssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AA04CF23EE1180A15BB2B8 /* ArticleDetailsScreenAssemblyTests.swift */; };
 		6754F0FC3D151202E68F7CD1 /* ArticleDetailsRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC57D4CF310D99A662D1379 /* ArticleDetailsRouterMock.swift */; };
 		6B2649E5C2B774A685667CB0 /* ArticleDetailsScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441F6E8240B9F137FA8BA74 /* ArticleDetailsScreenAssembly.swift */; };
+		888B6BA4067DEA38A477F006 /* Pods_HandsAppMvp_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0478C9B396A7106CED443F45 /* Pods_HandsAppMvp_DemoTests.framework */; };
 		8AFB1CF4DBB64E30AFE8313E /* SearchTableAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C0EA04431D2849635366DD /* SearchTableAdapter.swift */; };
 		8B3C5064D8CEA6C4176BDADB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3B42D8513F9BECE1A3CF2C /* SearchViewController.swift */; };
 		98C47A3E0B7FD2B40336392B /* SearchScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C851F0AC950B845A64672D4 /* SearchScreenAssembly.swift */; };
@@ -60,12 +63,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0478C9B396A7106CED443F45 /* Pods_HandsAppMvp_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandsAppMvp_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		077FF27E0451A64D3467212D /* Pods_HandsAppMvp_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandsAppMvp_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B176736A4F6DEAC579327F5 /* ArticleDetailsRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsRouter.swift; sourceTree = "<group>"; };
+		1C53EA051522351B809DB677 /* Pods-HandsAppMvp-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsAppMvp-DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-HandsAppMvp-DemoTests/Pods-HandsAppMvp-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		32C8EAD87CFC4BFF6924B630 /* Pods-HandsAppMvp-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsAppMvp-Demo.debug.xcconfig"; path = "Target Support Files/Pods-HandsAppMvp-Demo/Pods-HandsAppMvp-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		3613445E1F515DC2AEC660B6 /* ArticleDetailsViewControllerMock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewControllerMock.swift; sourceTree = "<group>"; };
 		39858CFA4B1AF788D33927D3 /* SearchViewControllerMock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchViewControllerMock.swift; sourceTree = "<group>"; };
 		3D2FD1D72E004B61AB686F12 /* SearchPresenterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchPresenterTests.swift; sourceTree = "<group>"; };
+		4910A6D02421274700405361 /* ArticleMapperTestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleMapperTestData.swift; sourceTree = "<group>"; };
+		4910A6D12421274700405361 /* ArticleMapperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleMapperTest.swift; sourceTree = "<group>"; };
 		49470B772418B1A5003E62CC /* HandsAppMvp-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HandsAppMvp-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49470B7A2418B1A5003E62CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49470B832418B1A9003E62CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,6 +112,7 @@
 		D1C0EA04431D2849635366DD /* SearchTableAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchTableAdapter.swift; sourceTree = "<group>"; };
 		E441F6E8240B9F137FA8BA74 /* ArticleDetailsScreenAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsScreenAssembly.swift; sourceTree = "<group>"; };
 		EBC57D4CF310D99A662D1379 /* ArticleDetailsRouterMock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsRouterMock.swift; sourceTree = "<group>"; };
+		EF00F9635794C4908A70C0B4 /* Pods-HandsAppMvp-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandsAppMvp-DemoTests.release.xcconfig"; path = "Target Support Files/Pods-HandsAppMvp-DemoTests/Pods-HandsAppMvp-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		FF0CA635A506EF111511B54E /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888B6BA4067DEA38A477F006 /* Pods_HandsAppMvp_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +156,15 @@
 				CF721A2920DFC275DD3CBDDB /* Mock Objects */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		4910A6CF242126F100405361 /* ModelMappers */ = {
+			isa = PBXGroup;
+			children = (
+				4910A6D12421274700405361 /* ArticleMapperTest.swift */,
+				4910A6D02421274700405361 /* ArticleMapperTestData.swift */,
+			);
+			path = ModelMappers;
 			sourceTree = "<group>";
 		};
 		49470B6E2418B1A5003E62CC = {
@@ -188,6 +206,7 @@
 			children = (
 				49470B932418B1A9003E62CC /* Info.plist */,
 				6F2AC0BDE0E293E53A885EF8 /* Screens */,
+				4910A6CF242126F100405361 /* ModelMappers */,
 			);
 			path = "HandsAppMvp-DemoTests";
 			sourceTree = "<group>";
@@ -391,6 +410,8 @@
 			children = (
 				32C8EAD87CFC4BFF6924B630 /* Pods-HandsAppMvp-Demo.debug.xcconfig */,
 				92C91E6F03F30D81D68A1959 /* Pods-HandsAppMvp-Demo.release.xcconfig */,
+				1C53EA051522351B809DB677 /* Pods-HandsAppMvp-DemoTests.debug.xcconfig */,
+				EF00F9635794C4908A70C0B4 /* Pods-HandsAppMvp-DemoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -399,6 +420,7 @@
 			isa = PBXGroup;
 			children = (
 				077FF27E0451A64D3467212D /* Pods_HandsAppMvp_Demo.framework */,
+				0478C9B396A7106CED443F45 /* Pods_HandsAppMvp_DemoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -429,9 +451,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49470B992418B1A9003E62CC /* Build configuration list for PBXNativeTarget "HandsAppMvp-DemoTests" */;
 			buildPhases = (
+				777615AAD177EDFA7D8D2451 /* [CP] Check Pods Manifest.lock */,
 				49470B892418B1A9003E62CC /* Sources */,
 				49470B8A2418B1A9003E62CC /* Frameworks */,
 				49470B8B2418B1A9003E62CC /* Resources */,
+				AF810F0D15A6D02505B36FC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -524,6 +548,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		777615AAD177EDFA7D8D2451 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandsAppMvp-DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF810F0D15A6D02505B36FC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HandsAppMvp-DemoTests/Pods-HandsAppMvp-DemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HandsAppMvp-DemoTests/Pods-HandsAppMvp-DemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HandsAppMvp-DemoTests/Pods-HandsAppMvp-DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		EC154D350F245557B5FB61CA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -586,11 +649,13 @@
 				F85466DBB10FCEB9463556F9 /* SearchViewControllerMock.swift in Sources */,
 				062FB0D2C87F78C841AB2E64 /* SearchRouterMock.swift in Sources */,
 				FDFEDD1B141869D090152E9C /* SearchScreenOutputMock.swift in Sources */,
+				4910A6D22421274700405361 /* ArticleMapperTestData.swift in Sources */,
 				4D96BC8C0D03EE9DA49A93BC /* ArticleDetailsScreenAssemblyTests.swift in Sources */,
 				F14421848F454F4C9DC900D1 /* ArticleDetailsPresenterTests.swift in Sources */,
 				CAEEEF3B2159B6D5FC72373C /* ArticleDetailsViewControllerMock.swift in Sources */,
 				6754F0FC3D151202E68F7CD1 /* ArticleDetailsRouterMock.swift in Sources */,
 				AE1A36A224325CDF7BD46027 /* ArticleDetailsScreenOutputMock.swift in Sources */,
+				4910A6D32421274700405361 /* ArticleMapperTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,8 +837,9 @@
 		};
 		49470B9A2418B1A9003E62CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C53EA051522351B809DB677 /* Pods-HandsAppMvp-DemoTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H684JQG5B2;
@@ -794,8 +860,9 @@
 		};
 		49470B9B2418B1A9003E62CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF00F9635794C4908A70C0B4 /* Pods-HandsAppMvp-DemoTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H684JQG5B2;

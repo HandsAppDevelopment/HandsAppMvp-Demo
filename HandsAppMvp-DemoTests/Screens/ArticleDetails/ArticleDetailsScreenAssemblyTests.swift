@@ -11,7 +11,14 @@ class ArticleDetailsScreenAssemblyTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-        viewController = ArticleDetailsScreenAssembly().assemble()
+        let articleModel = ArticleModel(
+            title: "",
+            author: "",
+            description: "",
+            publishedAt: "",
+            urlToImage: nil
+        )
+        viewController = ArticleDetailsScreenAssembly().assemble(article: articleModel)
     }
 
 	// MARK: - Tests

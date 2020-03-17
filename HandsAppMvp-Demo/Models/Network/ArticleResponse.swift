@@ -1,4 +1,4 @@
-struct ArticleResponse: Decodable {
+struct ArticleResponse: Codable {
     let title: String
     let author: String?
     let description: String?

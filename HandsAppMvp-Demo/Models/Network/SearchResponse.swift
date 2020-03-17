@@ -1,3 +1,3 @@
-struct SearchResponse: Decodable {
+struct SearchResponse: Codable {
     let articles: [ArticleResponse]?
 }

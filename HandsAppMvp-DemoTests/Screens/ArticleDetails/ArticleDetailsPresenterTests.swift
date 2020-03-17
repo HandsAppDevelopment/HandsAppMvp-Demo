@@ -15,7 +15,14 @@ class ArticleDetailsPresenterTests: XCTestCase {
         let router = ArticleDetailsRouterMock()
         let view = ArticleDetailsViewControllerMock()
         let output = ArticleDetailsScreenOutputMock()
-        presenter = ArticleDetailsPresenter(router: router)
+        let articleModel = ArticleModel(
+            title: "",
+            author: "",
+            description: "",
+            publishedAt: "",
+            urlToImage: nil
+        )
+        presenter = ArticleDetailsPresenter(router: router, article: articleModel)
         presenter.view = view
         presenter.output = output
     }
